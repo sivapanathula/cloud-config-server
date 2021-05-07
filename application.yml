@@ -16,5 +16,9 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
-      
+        
+spring:
+   cloud:
+    config:
+      name: order-service,payment-service,cloud-gateway
       
